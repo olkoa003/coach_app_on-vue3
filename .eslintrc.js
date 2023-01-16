@@ -1,5 +1,7 @@
 module.exports = {
-    presets: [
-        '@vue/cli-plugin-babel/preset'
-    ]
+    extends: [
+        'plugin:vue/vue3-recommended',
+    ],
+    rules: {
+    }
 }
